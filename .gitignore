@@ -1,0 +1,24 @@
+# STM32CubeIDE / Keil / IAR build files
+build/
+Debug/
+Release/
+*.o
+*.bin
+*.elf
+*.map
+*.hex
+*.bak
+*.log
+*.tmp
+
+# ESP-IDF build files
+sdkconfig
+sdkconfig.old
+/build/*
+
+# VS Code settings
+.vscode/
+
+# Other common files
+*.DS_Store
+Thumbs.db
