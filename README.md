@@ -59,4 +59,4 @@ Receives sensor data from the STM32 and publishes it to the cloud.
 #### Data Packet Structure
 The data sent from the STM32 to the ESP32 is a single comma-separated string, validated by a start marker (`AA`) and a CRC value.
 
- 'AA,<temperature>,<humidity>,<accx>,<accy>,<accz>,<gyrx>,<gyry>,<gyrz>,<ppm>,<latitude>,<longitude>,<date>,<time>,<speed>,<crc_value>`
+ `AA,<temperature>,<humidity>,<accx>,<accy>,<accz>,<gyrx>,<gyry>,<gyrz>,<ppm>,<latitude>,<longitude>,<date>,<time>,<speed>,<crc_value>`
